@@ -1,4 +1,33 @@
-pyroute2 (0.3.5-2~precise0+exo1) precise; urgency=medium
+pyroute2 (0.4.12-0ubuntu1) zesty; urgency=medium
+
+  * d/gbp.conf: Update gbp configuration file.
+  * d/control: Update Vcs-* links and maintainers.
+  * New upstream release. 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Fri, 27 Jan 2017 11:14:35 -0500
+
+pyroute2 (0.4.11-0ubuntu1) zesty; urgency=medium
+
+  * New upstream release.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Mon, 02 Jan 2017 10:01:21 -0500
+
+pyroute2 (0.3.16-1) unstable; urgency=medium
+
+  * Bumping to version 0.3.16 (Closes: #797778)
+  * Bumping standards-version to 3.9.7
+  * https for pypi.debian.net
+  * Ignore build process files
+
+ -- Florian Pelgrim <florian.pelgrim@craneworks.de>  Sun, 27 Mar 2016 23:31:30 +0200
+
+pyroute2 (0.3.5-2) unstable; urgency=medium
+
+  * Fixing debian/watch file for uscan
+
+ -- Florian Pelgrim <florian.pelgrim@craneworks.de>  Fri, 27 Mar 2015 10:45:38 -0500
+
+pyroute2 (0.3.5-1~precise0+exo1) precise; urgency=medium
 
   * Backport to Precise.
 
