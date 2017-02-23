@@ -1,0 +1,13 @@
+Index: pyroute2-0.4.12/pyroute2/__init__.py
+===================================================================
+--- pyroute2-0.4.12.orig/pyroute2/__init__.py
++++ pyroute2-0.4.12/pyroute2/__init__.py
+@@ -26,7 +26,7 @@ try:
+ except:
+     if sys.version_info[0] < 3:
+         # monkeypatch for old Python versions
+-        log.warning('patching struct.unpack_from()')
++        # log.warning('patching struct.unpack_from()')
+ 
+         def wrapped(fmt, buf, offset=0):
+             return struct._u_f_orig(fmt, str(buf), offset)

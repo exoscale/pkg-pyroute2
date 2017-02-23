@@ -1,3 +1,9 @@
+pyroute2 (0.4.12-0ubuntu1~precise0+exo2) precise; urgency=medium
+
+  * Add a patch to avoid a warning while we have no logger installed yet.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 23 Feb 2017 19:39:39 +0100
+
 pyroute2 (0.4.12-0ubuntu1~precise0+exo1) precise; urgency=medium
 
   * Backport to Precise.
