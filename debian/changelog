@@ -1,3 +1,9 @@
+pyroute2 (0.4.12-0ubuntu1~xenial0+exo2) xenial; urgency=medium
+
+  * Forward-port to Xenial.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 18 May 2017 22:59:24 +0200
+
 pyroute2 (0.4.12-0ubuntu1~precise0+exo2) precise; urgency=medium
 
   * Add a patch to avoid a warning while we have no logger installed yet.
