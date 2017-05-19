@@ -4,6 +4,12 @@ pyroute2 (0.4.12-0ubuntu1~xenial0+exo2) xenial; urgency=medium
 
  -- Vincent Bernat <bernat@debian.org>  Thu, 18 May 2017 22:59:24 +0200
 
+pyroute2 (0.4.12-0ubuntu1~precise0+exo3) precise; urgency=medium
+
+  * Patch to read back tc filters with stats and actions.
+
+ -- Vincent Bernat <bernat@debian.org>  Fri, 19 May 2017 21:57:07 +0200
+
 pyroute2 (0.4.12-0ubuntu1~precise0+exo2) precise; urgency=medium
 
   * Add a patch to avoid a warning while we have no logger installed yet.
