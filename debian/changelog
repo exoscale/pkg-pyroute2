@@ -1,3 +1,10 @@
+pyroute2 (0.4.14+7-g6aca1239d81d-0~precise0+exo1) precise; urgency=medium
+
+  * Backport to Precise.
+     + Drop tc patch.
+
+ -- Vincent Bernat <bernat@debian.org>  Fri, 26 May 2017 08:00:03 +0200
+
 pyroute2 (0.4.14+7-g6aca1239d81d-0) UNRELEASED; urgency=medium
 
   * New upstream release (includes bridge port support).
