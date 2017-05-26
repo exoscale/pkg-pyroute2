@@ -1,3 +1,9 @@
+pyroute2 (0.4.14+7-g6aca1239d81d-0) UNRELEASED; urgency=medium
+
+  * New upstream release (includes bridge port support).
+
+ -- Vincent Bernat <bernat@debian.org>  Fri, 26 May 2017 07:57:12 +0200
+
 pyroute2 (0.4.12-0ubuntu1~precise0+exo3) precise; urgency=medium
 
   * Patch to read back tc filters with stats and actions.
