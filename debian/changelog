@@ -1,3 +1,9 @@
+pyroute2 (0.4.14+7-g6aca1239d81d-0~bpo8+0+exo1) jessie-backports; urgency=medium
+
+  * Cross-port to Jessie.
+
+ -- Vincent Bernat <bernat@debian.org>  Thu, 13 Jul 2017 16:48:18 +0200
+
 pyroute2 (0.4.14+7-g6aca1239d81d-0~xenial0+exo1) xenial; urgency=medium
 
   * Forward-port to Xenial.
