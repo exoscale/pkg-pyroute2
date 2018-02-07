@@ -1,3 +1,55 @@
+pyroute2 (0.4.21-0.1ubuntu2) bionic; urgency=medium
+
+  * Re-merge, restoring accidently dropped Debian changes.
+
+ -- James Page <james.page@ubuntu.com>  Wed, 29 Nov 2017 09:59:47 +0000
+
+pyroute2 (0.4.21-0.1ubuntu1) bionic; urgency=low
+
+  * Merge from Debian unstable.  Remaining changes:
+    - d/rules, d/control: Run nosetests(3) as part of build.
+
+ -- James Page <james.page@ubuntu.com>  Wed, 29 Nov 2017 09:51:58 +0000
+
+pyroute2 (0.4.21-0.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 16 Oct 2017 19:00:49 +0000
+
+pyroute2 (0.4.21-0ubuntu1) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- James Page <james.page@ubuntu.com>  Wed, 15 Nov 2017 14:10:49 +0000
+
+pyroute2 (0.4.18-0ubuntu1) artful; urgency=medium
+
+  * New upstream release.
+  * d/rules, d/control: Run nosetests(3) as part of build.
+
+ -- Corey Bryant <corey.bryant@canonical.com>  Mon, 31 Jul 2017 12:58:35 -0400
+
+pyroute2 (0.4.12-2) unstable; urgency=medium
+
+  * Adding docs package (Thanks to Federico Ceratto)
+    For now we only ship pre-build documentation
+
+ -- Florian Pelgrim <florian.pelgrim@craneworks.de>  Sat, 28 Jan 2017 20:09:34 +0100
+
+pyroute2 (0.4.12-1) unstable; urgency=medium
+
+  * Bumping to version 0.4.12 (Closes: #830114)
+  * Bumping standards-version to 3.9.8
+  * Update Build-Depends and Build-Depends-Indep (Thanks to Federico Ceratto)
+  * Adding 'Provides' and 'Recommends' to package (Thanks to Federico Ceratto)
+  * Bumping debhelper to version 10
+  * Update copyright information
+  * Adding README.md and examples/* to package (Thanks to Federico Ceratto)
+
+ -- Florian Pelgrim <florian.pelgrim@craneworks.de>  Sat, 28 Jan 2017 18:06:26 +0100
+
 pyroute2 (0.4.12-0ubuntu1) zesty; urgency=medium
 
   * d/gbp.conf: Update gbp configuration file.
@@ -38,3 +90,4 @@ pyroute2 (0.3.3-1) unstable; urgency=low
   * Initial packaging Closes: #772572
 
  -- Florian Pelgrim <florian.pelgrim@craneworks.de>  Fri, 02 Jan 2015 08:57:35 -0600
+
