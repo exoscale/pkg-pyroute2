@@ -1,3 +1,10 @@
+pyroute2 (0.4.21-0.1ubuntu2~xenial0+exo1) xenial; urgency=medium
+
+  * Backport from Bionic to Xenial.
+     + Drop all patches.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 07 Feb 2018 10:34:24 +0100
+
 pyroute2 (0.4.21-0.1ubuntu2) bionic; urgency=medium
 
   * Re-merge, restoring accidently dropped Debian changes.
