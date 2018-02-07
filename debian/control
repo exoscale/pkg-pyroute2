@@ -3,7 +3,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Florian Pelgrim <florian.pelgrim@craneworks.de>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 10~)
+Build-Depends: debhelper (>= 9)
 Build-Depends-Indep:
  dh-python,
  python-all,
